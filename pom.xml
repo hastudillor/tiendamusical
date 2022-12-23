@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.henryastudillo</groupId>
+	<artifactId>tiendamusical</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>tiendamusical-entities</module>
+		<module>tiendamusical-data</module>
+		<module>tiendamusical-services</module>
+		<module>tiendamusical-web</module>
+	</modules>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        
+        
+        <junit-version>4.11</junit-version>
+        <hibernate-core-version>5.6.14.Final</hibernate-core-version><!--6.0.0 jakarta -->
+        <mysql-connector-java-version>8.0.31</mysql-connector-java-version>
+        <spring-data-jpa-version>2.7.6</spring-data-jpa-version><!--3.0.0 jakarta-->
+        <spring-context-version>5.3.24</spring-context-version><!--6.0.0 jakarta-->
+        <spring-test-version>5.3.24</spring-test-version><!--6.0.0 jakarta -->
+        <commons-dbcp2-version>2.9.0</commons-dbcp2-version>
+        <hibernate-jpa-api-version>1.0.2.Final</hibernate-jpa-api-version>
+    	<jsf-api-version>2.2.20</jsf-api-version>
+    	<javax.annotation-api-version>1.3.2</javax.annotation-api-version>
+    	<primefaces-version>12.0.0</primefaces-version>
+    	
+    </properties>
+</project>
